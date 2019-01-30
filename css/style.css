@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700';
+
+body {
+	background-color: #F5F5F5;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* En-tête */
+
+header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #10DDC2;
+	text-transform: uppercase;
+}
+
+header h1 {
+	text-align: center;
+	color: #F5F5F5;
+}
+
+/* MAIN */
+
+.input-group {
+	margin-bottom: 30px;
+}
+
+button {
+	width: 50%;
+	box-sizing: border-box;
+}
+
+main {
+	text-align: center;
+	padding-top: 80px;
+}
+
+/* FOOTER */
+
+footer {
+	color: #F5F5F5;
+	margin-top: 100px;
+	background-color: #15B7B9;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#lbl-resultat {
+	font-size: 2em;
+}
+
+#img-resultat {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 275px;
+}

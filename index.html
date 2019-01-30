@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Trouver facilement votre signe du zodiaque</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header><h1>Zodiaque</h1></header>
+
+    <main class="container">
+      <!-- Inputs -->
+      <div class="row">
+        <!-- col-xs-offset-2 <=> "col-xs-2" vide -->
+        <div class="col-xs-8 col-xs-offset-2">
+          <!-- Nom -->
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1"
+              ><span class="glyphicon glyphicon-user" aria-hidden="true"></span
+            ></span>
+            <input
+              type="text"
+              id="txt-name"
+              class="form-control"
+              placeholder="Youri"
+              aria-describedby="sizing-addon1"
+            />
+          </div>
+
+          <!-- Date de naissance -->
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1"
+              ><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span
+            ></span>
+            <input
+              type="text"
+              id="txt-date"
+              class="form-control"
+              aria-describedby="sizing-addon1"
+              placeholder="22/05/1900"
+            />
+          </div>
+
+          <!-- Bouton -->
+          <button class="btn btn-danger" id="btn-valid">Valider</button>
+        </div>
+      </div>
+
+      <!-- Résultat -->
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <img id="img-resultat" />
+          <p id="lbl-resultat"></p>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer><div class="copyright">&copy; Sébastien Pennarun 2016</div></footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
